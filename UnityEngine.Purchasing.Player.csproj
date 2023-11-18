@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EE91645D-3EAB-09AD-AF60-FA9D72D04EA4}</ProjectGuid>
+    <ProjectGuid>{B0885066-40F3-2017-AAAC-1D600B8FAA12}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing</AssemblyName>
@@ -657,7 +657,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{659124AC-759D-75C6-BADE-3F78AD4397E1}</Project>
+      <Project>{BDD952F5-7D27-D049-807D-0162C2BA8CEB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

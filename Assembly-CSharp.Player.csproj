@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7E86FC97-D3E8-BE4B-1813-02B3784DDBCF}</ProjectGuid>
+    <ProjectGuid>{DC7FAE46-2829-E287-2489-2FF69E27538C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,6 +55,7 @@
     <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/TutorialScreen.cs" />
     <Compile Include="Assets/Scripts/candySpawn.cs" />
     <Compile Include="Assets/Unity Assets/Joystick Pack/Scripts/Base/Joystick.cs" />
     <Compile Include="Assets/Scripts/optionsMenuMove.cs" />
@@ -203,7 +204,6 @@
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Unity Assets/Standard Assets/CNControls/Examples/Scenes/2D/Scripts/PlatformerCharacter2D.cs" />
     <Compile Include="Assets/Unity Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" />
-    <Compile Include="Assets/TutorialScreen.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Unity Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -871,59 +871,59 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{8061C3C9-11FB-BDB2-9A39-34DC9E477AB3}</Project>
+      <Project>{C91A18F6-7F56-AC2F-FB21-A3364956E2CB}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.csproj">
-      <Project>{F879E74A-5883-8DC7-EDF8-08606B3795ED}</Project>
+      <Project>{FCA30695-3569-BBFE-C5F9-F61C59BA0ABF}</Project>
       <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{2CA5E83D-26D0-01EB-A900-A34D00783D16}</Project>
+      <Project>{019E5B5D-71E5-8773-EB80-F349EE4FB032}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{1B20AF1B-E0C6-B8D7-8D42-BA2A22B95FE0}</Project>
+      <Project>{09D98132-7867-44FE-DBF0-FD6C05842A57}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{659124AC-759D-75C6-BADE-3F78AD4397E1}</Project>
+      <Project>{BDD952F5-7D27-D049-807D-0162C2BA8CEB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{64E54264-4A7B-2045-B613-41E1D91DDF6B}</Project>
+      <Project>{7F583BB0-EBEA-0BCD-5C4D-911E3FC06ADA}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
-      <Project>{1DDFAF38-59AF-EABD-267A-EF6FC4938E81}</Project>
+      <Project>{D1FCBF86-8BFD-B3CF-00D7-3EECF7B6EB4B}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="VirtualButtonsScripts.csproj">
-      <Project>{050D50C4-A937-F7F2-81F8-360D28C1CCA7}</Project>
+      <Project>{885AAA53-84C7-9ED4-0AFE-B1A64C8ED104}</Project>
       <Name>VirtualButtonsScripts</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{101B28EB-8542-5351-1A07-3BFABE832DEA}</Project>
+      <Project>{D3A16FE1-4900-C120-E804-A49093A813A0}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{8DF4BF1A-CA96-DFF6-96F2-B3FFFA4E809B}</Project>
+      <Project>{05D5D5E3-6EFB-CB48-F170-5299007A4EDC}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{BF550554-B9A6-D3FD-2A04-A51E786E3D46}</Project>
+      <Project>{836EC306-5E26-675C-FF97-989695C61937}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{3AA6EE39-0CCC-6E3D-36E7-0FF1A857F851}</Project>
+      <Project>{CC872FCC-F92F-44C3-F3D0-B1C1CF852C61}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
-      <Project>{C911420F-C3AA-E612-20F2-14C8F585AAA4}</Project>
+      <Project>{DB933ED9-5BA4-6B8F-BF5D-8B79E4FC5BF5}</Project>
       <Name>Unity.2D.PixelPerfect</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{3FF0AF53-0211-7AD0-8265-6B4A19546714}</Project>
+      <Project>{ADC0ADDC-889A-2ACB-6F95-7B90944CAC36}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
   </ItemGroup>

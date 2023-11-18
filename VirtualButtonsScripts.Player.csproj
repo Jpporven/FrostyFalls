@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BB0AF6CE-C3A8-F759-DEF6-F114C0FA462B}</ProjectGuid>
+    <ProjectGuid>{8F6FDC28-B2D5-87C1-1AC2-FB56A966BA7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VirtualButtonsScripts</AssemblyName>
@@ -626,11 +626,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{2CA5E83D-26D0-01EB-A900-A34D00783D16}</Project>
+      <Project>{019E5B5D-71E5-8773-EB80-F349EE4FB032}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{659124AC-759D-75C6-BADE-3F78AD4397E1}</Project>
+      <Project>{BDD952F5-7D27-D049-807D-0162C2BA8CEB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
