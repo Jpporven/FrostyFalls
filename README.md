@@ -17,7 +17,7 @@ This project is running on Unity 2020.1.6[^1], in addition to using the old inpu
 Once the project is open in Unity, locate the project window. Select the scenes folder inside of the Assets folder. Open the "Intro" scene. Locate the hierarchy window, click on "SaveSystem", and locate inspector window. Under "Data Persistence Manager" you can choose what your save data in the game will be called, as long as it ends in ".game". This scene will be the main scene for playtesting the game. For
 any questions about errors running the project, please feel free to email me at:
 
-#### sealedsoulsgames@gmail.com
+#### jpporven@gmail.com
 
   
   
